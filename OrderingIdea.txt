@@ -1,0 +1,3 @@
+Meh'rab Rahman had an idea for Git. Instead of rote memorization he suggested we try to order a list of our names.
+
+I was hoping to extend this to birthdates as well, because that would create an interesting problem.
