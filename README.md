@@ -21,3 +21,4 @@ although, running into this the first day with git is a good sign of trying thin
 1. make a commit but leave a typo in the commit message. then figure out how to replace the commit with a corrected commit message with just one command (i.e. not by using `git reset` first). consider why this wouldn't normally be a good idea if you'd already pushed the typoed commit to the remote repository.
 2. look inside the `.git` folder and see if any of the files there are text files you can understand. you can always use git commands to interface with these files and you never actually need to go in there manually, though.
 3. perform a merge, ideally a non-fast-forward one so there are changes on both sides, and then figure out how to tell `git diff` to tell you about each set of changes - from the point of view of one and also the other parent commit of the merge commit.
+4. try `git log --graph`, or maybe `git log --graph --oneline`. Pretty useful
